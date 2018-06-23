@@ -20,12 +20,12 @@ body {
 	padding: 20 0;
 }
 
-.navbar-dark .navbar-brand {
+.navbar-brand {
 	font-size: 2em !important;
 	font-weight: 400 !important;
 }
 
-.navbar-dark ul li a {
+.navbar-dark li a {
 	font-size: 1.2em !important;
 	font-weight: 400 !important;
 }
