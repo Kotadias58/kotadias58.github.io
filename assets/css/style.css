@@ -5,15 +5,10 @@ html, body {
 }
 
 .container-fluid {
-	background-color: #000 !important;
+	background-color: #000 !important;	
 }
 
 .container {
     margin-top: 20px;
-    background-color: #ccc !important;
-}
-
-.navbar {
-	margin: 0;
-	padding: 0;
+    background-color: #ccc;
 }
