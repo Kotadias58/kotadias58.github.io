@@ -1,34 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
-
 html, body {
     margin: 0;
     padding: 0;
-}
-
-body {
-  font-family: 'Roboto Condensed', sans-serif !important;
-}
-
-.container-fluid {
-	/*background-color: #343A40 !important;*/
+    height: 100%;
 }
 
 .container {
     margin-top: 20px;
     background-color: #ccc;
-}
-
-.navbar {
-	margin: 0 !important;
-	padding: 20 0 !important;
-	height: 52px;
-	line-height: 52px;
-}
-
-.navbar-dark .navbar-brand {
-	font-weight: 400 !important;
-}
-
-.navbar-dark .navbar-item {
-	font-weight: 200 !important;
 }
