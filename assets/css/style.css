@@ -25,10 +25,10 @@ body {
 	line-height: 52px;
 }
 
-.navbar.navbar-brand {
+.navbar .navbar-brand {
 	font-weight: 400;
 }
 
-.navbar.navbar-item {
+.navbar .navbar-item {
 	font-weight: 200;
 }
