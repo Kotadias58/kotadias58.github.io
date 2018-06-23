@@ -24,3 +24,11 @@ body {
 	height: 52px;
 	line-height: 52px;
 }
+
+.navbar.navbar-brand {
+	font-weight: 400;
+}
+
+.navbar.navbar-item {
+	font-weight: 200;
+}
