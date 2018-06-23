@@ -4,7 +4,16 @@ html, body {
     height: 100%;
 }
 
+.container-fluid {
+	background-color: #000 !important;
+}
+
 .container {
     margin-top: 20px;
-    background-color: #ccc;
+    background-color: #ccc !important;
+}
+
+.navbar {
+	margin: 0;
+	padding: 0;
 }
