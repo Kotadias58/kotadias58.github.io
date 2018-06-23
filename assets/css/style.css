@@ -5,7 +5,8 @@ html, body {
 }
 
 .container-fluid {
-	background-color: #000 !important;	
+	background-color: #343A40 !important;
+	height: 100vh;	
 }
 
 .container {
@@ -14,6 +15,8 @@ html, body {
 }
 
 .navbar {
-	margin: 0;
-	padding: 0;
+	margin: 0 !important;
+	padding: 20 0 !important;
+	height: 0.8em;
+	line-height: 0.8em;
 }
