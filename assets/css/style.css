@@ -12,3 +12,8 @@ html, body {
     margin-top: 20px;
     background-color: #ccc;
 }
+
+.navbar {
+	margin: 0;
+	padding: 0;
+}
