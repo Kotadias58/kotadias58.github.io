@@ -17,24 +17,26 @@ body {
 }
 
 .wrapper-content {
-    height: 100%;
-    padding-top: 20px;
-    margin: 0 auto;
-    background-color: #fff;
+  height: 100%;
+  padding-top: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+  background-color: #fff;
 }
 
 @media (min-width: 768px) {
-  .wrapper-content, .container {
+  .wrapper-content {
     width: 750px;
   }
 }
 @media (min-width: 992px) {
-  .wrapper-content, .container {
+  .wrapper-content {
     width: 970px;
   }
 }
 @media (min-width: 1200px) {
-  .wrapper-content, .container {
+  .wrapper-content {
     width: 1170px;
   }
 }
