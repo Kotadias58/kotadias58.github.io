@@ -16,31 +16,6 @@ body {
     overflow-x: hidden;
 }
 
-.wrapper-content {
-  height: 100%;
-  padding-top: 20px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin: 0 auto;
-  background-color: #fff;
-}
-
-@media (min-width: 768px) {
-  .wrapper-content {
-    width: 750px;
-  }
-}
-@media (min-width: 992px) {
-  .wrapper-content {
-    width: 970px;
-  }
-}
-@media (min-width: 1200px) {
-  .wrapper-content {
-    width: 1170px;
-  }
-}
-
 .navbar {
 	margin: 0;
 	padding: 0 20px;
@@ -106,12 +81,16 @@ body {
   text-align: center;
 }
 
-.section-container, .footer-contrainer {
+.section-container, .content-container, .footer-contrainer {
 	width: 100%;
 	height: 100%;
 	margin: 20px auto;
 	text-align: center;
 	background-color: #fff;
+}
+
+.content-container {
+	height: 100%;
 }
 
 .footer-container {
