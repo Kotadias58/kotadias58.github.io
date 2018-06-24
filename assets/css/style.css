@@ -15,19 +15,8 @@ body {
 	height: 100%;
 }
 
-.container {
-    margin-top: 20px;
-    background-color: #fff;
-    height: 100%;
-}
-
-.main-menu {
-	width: 100% !important;
-}
-
 .navbar {
-	width: 90% !important;
-	margin: 0 auto;
+	margin: 0;
 	padding: 0 20px;
 }
 

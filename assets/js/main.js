@@ -5,11 +5,11 @@ $(document).ready( function() {
 		let top = $(window).scrollTop();
 
 		if (top >= wheight) {
-			$(".navbar-dark, .main-menu").removeClass("bg-transparent");
-			$(".navbar-dark, .main-menu").addClass("bg-dark");
+			$(".navbar-dark").removeClass("bg-transparent");
+			$(".navbar-dark").addClass("bg-dark");
 		} else {
-			$(".navbar-dark, .main-manu").removeClass("bg-dark");
-			$(".navbar-darkm ,main-menu").addClass("bg-transparent");
+			$(".navbar-dark").removeClass("bg-dark");
+			$(".navbar-dark").addClass("bg-transparent");
 		}
 	});
 
