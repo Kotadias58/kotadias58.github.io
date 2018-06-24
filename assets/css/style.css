@@ -10,6 +10,10 @@ body {
   background-color: #ccc;
 }
 
+.wrapper {
+	height: 100%;
+}
+
 .container {
     margin-top: 20px;
     background-color: #fff;
@@ -37,7 +41,7 @@ body {
 	text-transform: uppercase;	
 }
 
-bg {
+.bg {
   background: url(/assets/images/garoto.jpeg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
