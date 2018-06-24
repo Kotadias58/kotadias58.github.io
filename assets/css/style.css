@@ -8,6 +8,7 @@ html, body {
 
 body {
   font-family: 'Roboto Condensed', sans-serif !important;
+  font-size: 20px;
 }
 
 .container {
@@ -17,7 +18,7 @@ body {
 
 .navbar {
 	margin: 0;
-	padding: 20 0;
+	padding: 20px 0;
 }
 
 .navbar-brand {
@@ -25,7 +26,7 @@ body {
 	font-weight: 400 !important;
 }
 
-.navbar-dark li a {
+.navbar li a {
 	font-size: 1.2em !important;
 	font-weight: 400 !important;
 }
