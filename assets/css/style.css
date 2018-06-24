@@ -33,11 +33,13 @@ body {
 	font-size: 2em !important;
 	font-weight: 400 !important;
 	padding-left: 20px
+	color: #fff !important;
 }
 
 .navbar li a {
 	font-size: 1.3em !important;
 	font-weight: 400 !important;
+	color: #fff !important;
 	text-transform: uppercase;	
 }
 
