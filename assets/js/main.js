@@ -6,10 +6,12 @@ $(document).ready( function() {
 		//alert("Height: " + wheight + " - Top: " + top); 
 
 		if (top >= wheight) {
-			$(".navbar-dark, .bg-dark").css("background-color", "rgba(255,255,255, 1) !important");
+			$(".navbar-dark").removeClass("bg-transparent");
+			$(".navbar-dark").addClass("bg-dark");
 			alert("Top é maior ou igual a Height " + wheight + " - " +top); 
 		} else {
-			$(".navbar-dark, .bg-dark").css("background-color", "rgba(255,255,255, 0) !important");
+			$(".navbar-dark").removeClass("bg-dark");
+			$(".navbar-dark").addClass("bg-transparent");
 			alert("Top é menos que Height: " + wheight + " - " +top); 
 		}
 	});
