@@ -6,7 +6,7 @@ $(document).ready( function() {
 	$(window).on("scroll", function() {
 		let top = $(window).scrollTop();
 
-		if (top > 100) //wheight {
+		if (top > 100) /*wheight*/ {
 			$(".navbar-dark").removeClass("bg-transparent");
 			$(".navbar-dark").addClass("bg-dark");
 		} else {
