@@ -90,6 +90,7 @@ body {
 }
 
 #wrapper-content .content-container {
+	position: relative;
 	height: 100%;
 }
 
