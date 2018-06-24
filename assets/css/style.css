@@ -24,13 +24,9 @@ body {
 	width: 100% !important;
 }
 
-.main-menu .navbar {
+.navbar {
 	width: 90% !important;
 	margin: 0 auto;
-}
-
-.navbar {
-	margin: 0;
 	padding: 0 20px;
 }
 
