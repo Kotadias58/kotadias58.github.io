@@ -1,5 +1,5 @@
 $(document).ready( function() {
-    //"use strict"; // Start of use strict
+    "use strict"; // Start of use strict
 
 	let wheight = $(window).height();
 
