@@ -16,12 +16,13 @@ body {
 
 .navbar {
 	margin: 0;
-	padding: 10px 0;
+	padding: 10px 20px;
 }
 
 .navbar-brand {
 	font-size: 2em !important;
 	font-weight: 400 !important;
+	padding-left: 20px
 }
 
 .navbar li a {
@@ -29,3 +30,4 @@ body {
 	font-weight: 400 !important;
 	text-transform: uppercase;	
 }
+
