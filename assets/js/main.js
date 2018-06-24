@@ -1,7 +1,7 @@
 $(document).ready( function() {
 	let wheight = $(window).height();
 
-	$(window).scroll(function() {
+	$(window).on("scroll", function() {
 		var top = $(window).scrollTop();
 		alert("Height: " + wheight + "- Top: " + top); 
 
