@@ -20,8 +20,9 @@ body {
     height: 100%;
 }
 
-.main-menu {
+.main-menu .navbar {
 	width: 90% !important;
+	margin: 0 auto;
 }
 
 .navbar {
