@@ -15,10 +15,13 @@ body {
     background-color: #ccc;
 }
 
-.navbar .navbar-dark {
+.navbar {
 	margin: 0;
 	padding: 10px 20px;
-    background-color: rgba(255,255,255,0.2);
+}
+
+.navbar-dark {
+    background-color: rgba(255,255,255,0.2) !important;
 }
 
 .navbar-brand {
