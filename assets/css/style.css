@@ -16,7 +16,7 @@ body {
 
 .navbar {
 	margin: 0;
-	padding: 20px 0;
+	padding: 10px 0;
 }
 
 .navbar-brand {
@@ -25,6 +25,7 @@ body {
 }
 
 .navbar li a {
-	font-size: 1.2em !important;
+	font-size: 1.3em !important;
 	font-weight: 400 !important;
+	text-transform: uppercase;	
 }
