@@ -6,7 +6,6 @@ $(document).ready( function() {
 
 		if ( top >= wheight) {
 			$("#navbar-fixa").css("background-color", "rgba(255,255,255, 1)");
-
 		} else {
 			$("#navbar-fixa").css("background-color", "rgba(255,255,255, 0)");
 		}
