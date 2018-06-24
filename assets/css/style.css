@@ -24,17 +24,17 @@ body {
 }
 
 @media (min-width: 768px) {
-  .wrapper-content {
+  .wrapper-content, .container {
     width: 750px;
   }
 }
 @media (min-width: 992px) {
-  .wrapper-content {
+  .wrapper-content, .container {
     width: 970px;
   }
 }
 @media (min-width: 1200px) {
-  .wrapper-content {
+  .wrapper-content, .container {
     width: 1170px;
   }
 }
