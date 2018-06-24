@@ -1,12 +1,12 @@
 $(document).ready( function() {
-    "use strict"; // Start of use strict
+    //"use strict"; // Start of use strict
 
 	let wheight = $(window).height();
 
 	$(window).on("scroll", function() {
 		let top = $(window).scrollTop();
 
-		if (top >= wheight) {
+		if (top > 100) //wheight {
 			$(".navbar-dark").removeClass("bg-transparent");
 			$(".navbar-dark").addClass("bg-dark");
 		} else {
