@@ -15,10 +15,26 @@ body {
 	height: 100%;
 }
 
-.content {
-    margin-top: 20px;
-    background-color: #fff;
+.wrapper-content {
     height: 100%;
+    padding-top: 20px;
+    background-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .wrapper-content {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .wrapper-content {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .wrapper-content {
+    width: 1170px;
+  }
 }
 
 .navbar {
