@@ -37,9 +37,25 @@ body {
 	text-transform: uppercase;	
 }
 
-img {
-	position: absolute;
-	top: 0;
-	left: 0;
-	object-fit: cover;
+bg {
+  background: url(/assets/images/garoto.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.wellcome {
+  font-size: 3em;
+  font-weight: 700;
+  color: $fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
