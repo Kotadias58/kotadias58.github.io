@@ -27,10 +27,18 @@ body {
 
 .bg-dark {
     background-color: rgba(0,0,0,1) !important;
+    -webkit-transition: all 2s; 
+    -moz-transition: all 2s; 
+    -o-transition: all 2s; 
+    transition: all 2s;    
 }
 
 .bar-transparent {
     background-color: rgba(0,0,0,0) !important;
+    -webkit-transition: all 2s; 
+    -moz-transition: all 2s; 
+    -o-transition: all 2s; 
+    transition: all 2s;    
 }
 
 .navbar-brand {
