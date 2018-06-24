@@ -1,9 +1,9 @@
 $(document).ready( function() {
-	var wheight = $(window).height();
+	let wheight = $(window).height();
 
 	$(window).scroll(function() {
 		var top = $(window).scrollTop();
-		console.log("Top: " + top); 
+		alert("Height: " + wheight + "- Top: " + top); 
 
 		if ( top >= wheight) {
 			$("#navbar-fixa").css("background-color", "rgba(255,255,255, 1)");
