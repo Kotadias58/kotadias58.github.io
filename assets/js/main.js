@@ -7,10 +7,10 @@ $(document).ready( function() {
 
 		if (top >= wheight) {
 			$(".bg-dark").css("background-color", "rgba(255,255,255, 1)");
-			alert("Height: " + wheight + " - Top: " + top); 
+			alert("Top é maior ou igual a Height " + wheight + " - " +top); 
 		} else {
 			$(".bg-dark").css("background-color", "rgba(255,255,255, 0)");
-			alert("Height: " + wheight + " - Top: " + top); 
+			alert("Top é menos que Height: " + wheight + " - " +top); 
 		}
 	});
 
