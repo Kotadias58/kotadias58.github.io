@@ -21,10 +21,10 @@ body {
 }
 
 .main-menu {
-	width: 100%;
+	width: 100% !important;
 }
 
-.main-menu .navbar {
+.main-menu.navbar {
 	width: 90% !important;
 	margin: 0 auto;
 }
