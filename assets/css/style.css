@@ -96,6 +96,7 @@ body {
 
 .cards-container {
 	margin: 0 auto;
+	background-color: #ccc;
 }
 
 #parallaxBar{
