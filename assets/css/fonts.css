@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'symbolregular';
+    src: url('../fonts/symbol-webfont.woff2') format('woff2'),
+         url('../fonts/symbol-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'old_english_fiveregular';
+    src: url('../fonts/oldenglishfive-webfont.woff2') format('woff2'),
+         url('../fonts/oldenglishfive-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
