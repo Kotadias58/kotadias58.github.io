@@ -99,6 +99,7 @@ body {
   text-align: center;
 }
 
+/*
 .carousel,.item,.active {
 	height:100vh;
 }
@@ -136,6 +137,7 @@ body {
   left: 0;
   right: 0;
 }
+*/
 
 .footer-container {
   padding: 20px 0;
