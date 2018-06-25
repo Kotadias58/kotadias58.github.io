@@ -13,6 +13,8 @@ $(document).ready( function() {
 		}
 	});
 
+	/*
+
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
 	    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
 	      	var target = $(this.hash);
@@ -37,7 +39,7 @@ $(document).ready( function() {
     	target: '#navbar-fixa',
     	offset: 54
   	});
-
+	*/
 
 	/*
     //Captura cada elemento div com o data-type "background"
