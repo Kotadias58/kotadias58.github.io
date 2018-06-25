@@ -108,20 +108,19 @@ body {
 
 .carousel-inner .carousel-item {
   	height: 100vh !important;
-	background-image: url(/assets/images/image4.jpg) no-repeat top center fixed cover;
+	background-image: url(/assets/images/image4.jpg) no-repeat top center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-      z-index: -1;
 }
 
 .carousel-inner .carousel-item:nth-child(2) {
-	background-image: url(/assets/images/image2.jpg) no-repeat top center fixed cover;
+	background-image: url(/assets/images/image2.jpg) no-repeat top center fixed;
 }
 
 .carousel-inner .carousel-item:nth-child(3) {
-	background-image: url(/assets/images/image7.jpg) no-repeat top center fixed cover;
+	background-image: url(/assets/images/image7.jpg) no-repeat top center fixed;
 }
 
 .carousel-inner .carousel-item h1 {
