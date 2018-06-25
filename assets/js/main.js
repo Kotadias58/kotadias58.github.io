@@ -13,6 +13,7 @@ $(document).ready( function() {
 		}
 	});
 
+	/*
     //Captura cada elemento div com o data-type "background"
     $('div[data-type="background"]').each(function(){
         var $scroll = $(this);
@@ -23,7 +24,8 @@ $(document).ready( function() {
             var coords = '50% '+ yPos + 'px';
             $scroll.css({ backgroundPosition: coords });    
         });
-    });  
+    });
+    */  
 });
 
 (function($) {
