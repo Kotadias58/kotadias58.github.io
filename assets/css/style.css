@@ -99,11 +99,12 @@ body {
   text-align: center;
 }
 
-
+/*
 #parallaxBar{
     height:100%;
     position: relative; 
 }
+*/
 
 .carousel-inner .carousel-item {
   	height: 100vh !important;
