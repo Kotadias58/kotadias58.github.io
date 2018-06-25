@@ -84,6 +84,7 @@ body {
   text-align: center;
 }
 
+/*
 #parallaxBar{
 	width: 100%;
 	height: 100%;
@@ -92,6 +93,7 @@ body {
   	top: 0;
   	left: 0;
 }
+*/
 
 #parallaxBar h1 {
   font-size: 4em;
@@ -110,27 +112,20 @@ body {
 
 .carousel-inner .carousel-item {
   	height: 100vh !important;
-	background-image: url(/assets/images/image4.jpg);
-	background-position: top center;
-	background-repeat: no-repeat;
-    -webkit-background-attachment: fixed !important;
-    -moz-background-attachment: fixed !important;
-    -o-background-attachment: fixed !important;
-    background-attachment: fixed !important;	
+	background-image: url(/assets/images/image4.jpg) no-repeat top center fixed cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
       z-index: -1;
-
 }
 
 .carousel-inner .carousel-item:nth-child(2) {
-	background-image: url(/assets/images/image2.jpg);
+	background-image: url(/assets/images/image2.jpg) no-repeat top center fixed cover;
 }
 
 .carousel-inner .carousel-item:nth-child(3) {
-	background-image: url(/assets/images/image7.jpg);
+	background-image: url(/assets/images/image7.jpg) no-repeat top center fixed cover;
 }
 
 .carousel-inner .carousel-item h1 {
