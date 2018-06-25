@@ -11,6 +11,25 @@ body {
   overflow-x: hidden;
 }
 
+.navbar-brand {
+  	font-size: 2em !important;
+  	font-weight: 400 !important;
+  	padding-left: 20px;
+  	color: #fff !important;
+  	text-transform: uppercase;	
+}
+
+.navbar li {
+  padding: 0 20px;
+}
+
+.navbar li a {
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  color: #fff !important;
+  text-transform: uppercase !important;	
+}
+
 .bg-dark {
   background-color: rgba(0,0,0,1) !important;
   -webkit-transition: all 2s ease-in; 
