@@ -125,7 +125,7 @@ body {
   overflow: hidden; 	
 }
 
-.carousel-inner .item {
+.carousel-inner .carousel-item {
   	height: 100%;
 	background-image: url(/assets/images/image4.jpg);
 	background-position: top center;
@@ -140,11 +140,11 @@ body {
     -o-background-size: cover;
 }
 
-.carousel-inner .item:nth-child(2) {
+.carousel-inner .carousel-item:nth-child(2) {
 	background-image: url(/assets/images/image2.jpg);
 }
 
-.carousel-inner .item:nth-child(3) {
+.carousel-inner .carousel-item:nth-child(3) {
 	background-image: url(/assets/images/image3.jpg);
 }
 
