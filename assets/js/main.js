@@ -1,8 +1,9 @@
 $(document).ready( function() {
-	let wheight = $(window).height();
+	var wheight = $(window).height();
+	var $window = $(window);
 
 	$(window).on("scroll", function() {
-		let top = $(window).scrollTop();
+		var top = $window.scrollTop();
 
 		if (top > 100) /*wheight*/ {
 			$(".navbar-dark").removeClass("bg-transparent");
@@ -13,6 +14,17 @@ $(document).ready( function() {
 		}
 	});
 
+    //Captura cada elemento section com o data-type "background"
+    $('div[data-type="background"]').each(function(){
+        var $scroll = $(this);
+
+        //Captura o evento scroll do navegador e modifica o backgroundPosition de acordo com seu deslocamento.            
+        $(window).scroll(function() {
+            var yPos = -($window.scrollTop() / $scroll.data('speed')); 
+            var coords = '50% '+ yPos + 'px';
+            $scroll.css({ backgroundPosition: coords });    
+        });
+    });  
 });
 
 (function($) {
