@@ -1,9 +1,8 @@
 $(document).ready( function() {
 	let wheight = $(window).height();
-	let $window = $(window);
 
 	$(window).on("scroll", function() {
-		var top = $window.scrollTop();
+		var top = $(window).scrollTop();
 
 		if (top > 100) /*wheight*/ {
 			$(".navbar-dark").removeClass("bg-transparent");
@@ -20,7 +19,7 @@ $(document).ready( function() {
 
         //Captura o evento scroll do navegador e modifica o backgroundPosition de acordo com seu deslocamento.            
         $(window).scroll(function() {
-            var yPos = -($window.scrollTop() / $scroll.data('speed')); 
+            var yPos = -($(window).scrollTop() / $scroll.data('speed')); 
             var coords = '50% '+ yPos + 'px';
             $scroll.css({ backgroundPosition: coords });    
         });
