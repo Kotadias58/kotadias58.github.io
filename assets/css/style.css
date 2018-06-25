@@ -53,7 +53,7 @@ body {
   padding: 0 20px;
 }
 
-.navbar ul li a {
+.navbar li a {
   font-size: 1.2em !important;
   font-weight: 400 !important;
   color: #fff !important;
