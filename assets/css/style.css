@@ -101,7 +101,7 @@ body {
 
 
 #parallaxBar{
-	position: fixed;
+	position: relative;
 }
 
 .carousel-inner .carousel-item {
