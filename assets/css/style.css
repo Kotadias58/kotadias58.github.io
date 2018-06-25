@@ -46,25 +46,6 @@ body {
   transition: all 2s ease-out;    
 }
 
-#parallaxBar .wellcome {
-	position: relative;
-}	
-
-#parallaxBar .wellcome h1 {
-  font-size: 4em;
-  font-weight: 700;
-  color: #fff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -moz-transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
 .section-container, .content-container, .footer-contrainer {
   width: 100%;
   height: 100%;
@@ -105,7 +86,25 @@ body {
 
 
 #parallaxBar{
+  width: 100%;
+  height: 100%;
+  margin: 20px auto;
+  text-align: center;
+}
 
+#parallaxBar h1 {
+  font-size: 4em;
+  font-weight: 700;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .carousel-inner .carousel-item {
@@ -121,6 +120,8 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+      z-index: -1;
+
 }
 
 .carousel-inner .carousel-item:nth-child(2) {
@@ -131,7 +132,6 @@ body {
 	background-image: url(/assets/images/image7.jpg);
 }
 
-
 .carousel-inner .carousel-item h1 {
 	color: white;
 	font-size: 2em;
@@ -141,6 +141,7 @@ body {
 	top: 60%;
 	left: 0;
 	right: 0;
+  	z-index: 10;
 }
 
 .carousel-fade .carousel-item {
