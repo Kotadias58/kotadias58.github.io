@@ -42,11 +42,12 @@ body {
 }
 
 .navbar-brand {
-  font-size: 2em !important;
-  font-weight: 400 !important;
-  padding-left: 20px;
-  color: #fff !important;
-  text-transform: uppercase;	
+	clear: both;
+  	font-size: 2em !important;
+  	font-weight: 400 !important;
+  	padding-left: 20px;
+  	color: #fff !important;
+  	text-transform: uppercase;	
 }
 
 .navbar li {
