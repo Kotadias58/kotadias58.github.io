@@ -17,7 +17,6 @@ body {
 
 .wrapper {
   width: 100%;
-  height: 100%;
 }
 
 .navbar {
@@ -41,7 +40,7 @@ body {
   transition: all 2s ease-out;    
 }
 
-.navbar.navbar-brand {
+.navbar .navbar-brand {
   	font-size: 2em !important;
   	font-weight: 400 !important;
   	padding-left: 20px;
