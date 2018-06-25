@@ -131,7 +131,6 @@ body {
 
 .carousel,.item,.active {
 	height:100vh;
-	position: relative;
 }
 
 .carousel-inner .item {
