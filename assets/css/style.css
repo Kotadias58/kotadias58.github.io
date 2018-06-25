@@ -126,8 +126,15 @@ body {
   	overflow: hidden; 	
 }
 
-.carousel-inner .carousel-item {
-  	height: 100%;
+.carousel,.item,.active {
+  height:100vh;
+}
+
+.carousel-inner .item {
+  height: 100vh !important;
+}
+
+.carousel-inner .item {
 	background-image: url(/assets/images/image4.jpg);
 	background-position: top center;
 	background-repeat: no-repeat;
@@ -141,11 +148,11 @@ body {
     -o-background-size: cover;
 }
 
-.carousel-inner .carousel-item:nth-child(2) {
+.carousel-inner .item:nth-child(2) {
 	background-image: url(/assets/images/image2.jpg);
 }
 
-.carousel-inner .carousel-item:nth-child(3) {
+.carousel-inner .item:nth-child(3) {
 	background-image: url(/assets/images/image3.jpg);
 }
 
