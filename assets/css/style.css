@@ -1,0 +1,13 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: 'Roboto Condensed', sans-serif !important;
+  font-size: 20px;
+  background-color: #ccc;
+  overflow-x: hidden;
+}
+
