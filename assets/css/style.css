@@ -8,6 +8,7 @@ body {
   font-family: 'Roboto Condensed', sans-serif !important;
   font-size: 20px;
   background-color: #ccc;
+  overflow-x: hidden;
 }
 
 .clearfix {
@@ -126,11 +127,11 @@ body {
 
 #home {
 	width: 100%;
-  	position: relative;
 }
 
 .carousel,.item,.active {
-  height:100vh;
+	height:100vh;
+	position: relative;
 }
 
 .carousel-inner .item {
