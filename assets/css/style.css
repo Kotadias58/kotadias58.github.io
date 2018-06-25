@@ -46,6 +46,11 @@ body {
   transition: all 2s ease-out;    
 }
 
+#wrapper-content {
+	margin: 0;
+	padding: 0;
+}
+
 .section-container, .content-container, .footer-contrainer, .cards-container {
   width: 100%;
   height: 100%;
