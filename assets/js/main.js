@@ -55,7 +55,7 @@ $(document).ready( function() {
     });
     */  
 
-    
+    /*
     $('section[data-type="background"]').each(function(){
         var $scroll = $(this);   
             //Captura o evento scroll do navegador e modifica o backgroundPosition de acordo com seu deslocamento.            
@@ -65,6 +65,7 @@ $(document).ready( function() {
                 $scroll.css({ backgroundPosition: coords });    
             });
     });
+    */
           
 });
 
