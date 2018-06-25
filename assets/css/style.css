@@ -141,7 +141,6 @@ body {
 	right: 0;
 }
 
-/*
 .carousel-fade .carousel-item {
  	opacity: 0;
  	transition-duration: .6s;
@@ -167,8 +166,6 @@ body {
  	transform: translateX(0);
  	transform: translate3d(0, 0, 0);
 }
-*/
-
 
 .footer-container {
   padding: 20px 0;
