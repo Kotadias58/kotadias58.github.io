@@ -173,6 +173,10 @@ body {
   background-color: #000;
 }
 
+.nav-icon {
+  font-size: 52px;
+}
+
 .footer-container p {
 	text-align: center;
 }
