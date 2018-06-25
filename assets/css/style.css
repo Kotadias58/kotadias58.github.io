@@ -121,7 +121,8 @@ body {
 }
 
 #home {
-  position: relative; 	
+  position: relative;
+  overflow: hidden; 	
 }
 
 .carousel-inner .item {
