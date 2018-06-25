@@ -99,3 +99,48 @@ body {
   text-align: center;
 }
 
+.carousel,.item,.active {
+	height:100vh;
+}
+
+.carousel-inner .item {
+  	height: 100vh !important;
+	background-image: url(/assets/images/image4.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+    -webkit-background-attachment: fixed !important;
+    -moz-background-attachment: fixed !important;
+    -o-background-attachment: fixed !important;
+    background-attachment: fixed !important;	
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.carousel-inner .item:nth-child(2) {
+	background-image: url(/assets/images/image2.jpg);
+}
+
+.carousel-inner .item:nth-child(3) {
+	background-image: url(/assets/images/image3.jpg);
+}
+
+.carousel-inner .item h1 {
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  top: 60%;
+  left: 0;
+  right: 0;
+}
+
+.footer-container {
+  padding: 20px 0;
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+}
+
