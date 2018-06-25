@@ -1,6 +1,6 @@
 $(document).ready( function() {
-	var wheight = $(window).height();
-	var $window = $(window);
+	let wheight = $(window).height();
+	let $window = $(window);
 
 	$(window).on("scroll", function() {
 		var top = $window.scrollTop();
@@ -14,7 +14,7 @@ $(document).ready( function() {
 		}
 	});
 
-    //Captura cada elemento section com o data-type "background"
+    //Captura cada elemento div com o data-type "background"
     $('div[data-type="background"]').each(function(){
         var $scroll = $(this);
 
