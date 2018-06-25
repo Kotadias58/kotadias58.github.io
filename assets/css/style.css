@@ -87,7 +87,9 @@ body {
 
 #parallaxBar{
   text-align: center;
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 #parallaxBar h1 {
