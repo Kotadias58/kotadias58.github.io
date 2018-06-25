@@ -99,6 +99,13 @@ body {
 	background-color: #ccc;
 }
 
+.cards-container .car {
+    background: #fff;
+    box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
 #parallaxBar{
 	width: 100%;
 	height: 100%;
