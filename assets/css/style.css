@@ -147,7 +147,7 @@ body {
 }
 
 .item {  	
-  	background: url(/assets/images/image4.jpg);
+  	background-image: url(/assets/images/image4.jpg);
   	background-repeat: no-repeat;
   	background-position: top center;
   	background-attachment: fixed !important; 
@@ -158,11 +158,11 @@ body {
 }
 
 .item:nrh-child(2) {
-  	background: url(/assets/images/image2.jpg);
+  	background-image: url(/assets/images/image2.jpg);
 }
 
 .item:nrh-child(3) {
-  	background: url(/assets/images/image7.jpg);
+  	background-image: url(/assets/images/image7.jpg);
 }
 
 .carousel-inner .carousel-item h1 {
