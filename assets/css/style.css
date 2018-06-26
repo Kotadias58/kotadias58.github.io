@@ -94,6 +94,9 @@ body {
 	padding: 120px 30px;
 }
 
+#wrapper-content .card {
+	height: 450px !important;
+}
 
 #parallaxBar{
 	width: 100%;
