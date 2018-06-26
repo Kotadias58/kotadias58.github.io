@@ -1,5 +1,6 @@
 $(document).ready( function() {
 	let wheight = $(window).height();
+	let pos = 50;
 
 	$(window).on("scroll", function() {
 		var top = $(window).scrollTop();
@@ -12,17 +13,9 @@ $(document).ready( function() {
 			$(".navbar-dark").addClass("bg-transparent");
 		}
 
-		/*
-		if (top > 10) {
-			$(".wellcome").css({
-				'transform' : 'translate(-50%, '+ top /2 +'%)'
-			});
-		} else {
-			$(".wellcome").css({
-				'transform' : 'translate(-50%, -50%)'
-			});
-		}
-		*/
+		$(".wellcome").css({
+			'transform' : 'translate(-50%, '+ (pos + (top /4)) +'%)'
+		});
 	});
 
 	baguetteBox.run('.cards-gallery', { animation: 'slideIn'});
