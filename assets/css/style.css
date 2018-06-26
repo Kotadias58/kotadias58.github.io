@@ -12,6 +12,7 @@ body {
 }
 
 #mainNav {
+  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin-bottom: 0;
   text-transform: uppercase;
   /*border-bottom: 1px solid rgba(255, 255, 255, 0.3);*/
@@ -22,11 +23,10 @@ body {
   font-size: 14px;
   padding: 11px;
   color: white;
-  border: 1px solid white;
+  /*border: 1px solid white;*/
 }
 
 #mainNav .navbar-brand {
-  font-size: 2em;	
   font-weight: 700;
 }
 
@@ -59,7 +59,7 @@ body {
     -moz-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
     transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
     letter-spacing: 1px;
-    border-bottom: none;
+    /*border-bottom: none;*/
     background: transparent;
   }
   #mainNav.navbar-shrink {
@@ -76,6 +76,7 @@ body {
     color: white;
   }
 }
+
 
 /*
 .navbar-brand {
