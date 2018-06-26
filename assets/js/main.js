@@ -14,7 +14,7 @@ $(document).ready( function() {
 		}
 
 		$(".wellcome").css({
-			'transform' : 'translate(-50%, '+ (pos + (top /4)) +'%)'
+			'transform' : 'translate(-50%, '+ (pos + (top /2)) +'%)'
 		});
 	});
 
