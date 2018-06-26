@@ -172,6 +172,21 @@ section#faleconosco .section-heading {
   color: #fff;
 }
 
+section#quemsomos .section-heading {
+	font-size: 1.6em;
+	color: #000;
+}
+
+section#quemsomos .section-subheading {
+	font-size: 1.1em;
+	color: #000;
+}
+
+section#quemsomos .section-heading {
+	font-size: 2em;
+	color: #000;
+}
+
 .wrapper-content .content-container {
   	position: relative;
   	height: 100%;
