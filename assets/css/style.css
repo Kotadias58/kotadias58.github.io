@@ -181,6 +181,7 @@ body {
   	z-index: 10;
 }
 
+/*
 .carousel-fade .carousel-item {
  	opacity: 0;
  	transition-duration: .6s;
@@ -197,6 +198,7 @@ body {
 .carousel-fade  .active.carousel-item-right {
  	opacity: 0;
 }
+*/
 
 /*
 .carousel-fade  .carousel-item-next,
