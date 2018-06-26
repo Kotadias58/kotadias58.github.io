@@ -246,12 +246,11 @@ section#portfolio .section-heading {
   	position: absolute;
   	top: 70%;
   	left: 50%;
-  	/*
-  	-moz-transform: translate(-70%, -50%);
-  	-webkit-transform: translate(-70%, -50%);
-  	-o-transform: translate(-70%, -50%);
-  	-ms-transform: translate(-70%, -50%);
-  	transform: translate(-70%, -50%);
+  	-moz-transform: translate-x(-50%);
+  	-webkit-transform: translate-x(-50%);
+  	-o-transform: translate-x(-50%);
+  	-ms-transform: translate-x(-50%);
+  	transform: translate-x(-50%);
   	*/
   	text-align: center;
 }
