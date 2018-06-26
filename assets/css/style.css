@@ -150,7 +150,7 @@ body {
   	background-attachment: fixed !important;
 }
 
-.carousel-item .item { 
+.item { 
   	background-image: url(/assets/images/image4.jpg);
   	background-repeat: no-repeat;
   	background-position: top center;
@@ -161,11 +161,11 @@ body {
   	background-size: cover !important;
 }
 
-.carousel-item .item:nth-child(2) {
+.item:nth-child(2) {
   	background-image: url(/assets/images/image2.jpg);
 }
 
-.carousel-item .item:nth-child(3) {
+.item:nth-child(3) {
   	background-image: url(/assets/images/image7.jpg);
 }
 
