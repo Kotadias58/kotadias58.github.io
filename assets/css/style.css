@@ -189,9 +189,16 @@ section#quemsomos .section-subheading {
 	color: #000;
 }
 
+section#portfolio .portfolio-container {
+	position: absolute;
+	top:  50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
 section#portfolio .section-heading {
-	margin: 20px 0;
-	padding: 20px 0;
 	color: #000;
 	text-transform: uppercase;
 }
