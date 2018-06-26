@@ -149,60 +149,60 @@ body {
 	height: 450px;
 }
 
-section#contact {
+section#faleconosco {
   background-color: #212529;
   background-image: url("/assets/images/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
-section#contact .section-heading {
+section#faleconosco .section-heading {
   color: #fff;
 }
 
-section#contact .form-group {
+section#faleconosco .form-group {
   margin-bottom: 25px;
 }
 
-section#contact .form-group input,
-section#contact .form-group textarea {
+section#faleconosco .form-group input,
+section#faleconosco .form-group textarea {
   padding: 20px;
 }
 
-section#contact .form-group input.form-control {
+section#faleconosco .form-group input.form-control {
   height: auto;
 }
 
-section#contact .form-group textarea.form-control {
+section#faleconosco .form-group textarea.form-control {
   height: 248px;
 }
 
-section#contact .form-control:focus {
+section#faleconosco .form-control:focus {
   border-color: #fed136;
   box-shadow: none;
 }
 
-section#contact ::-webkit-input-placeholder {
+section#faleconosco ::-webkit-input-placeholder {
   font-weight: 700;
   color: #ced4da;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-section#contact :-moz-placeholder {
+section#faleconosco :-moz-placeholder {
   font-weight: 700;
   color: #ced4da;
   /* Firefox 18- */
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-section#contact ::-moz-placeholder {
+section#faleconosco ::-moz-placeholder {
   font-weight: 700;
   color: #ced4da;
   /* Firefox 19+ */
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-section#contact :-ms-input-placeholder {
+section#faleconosco :-ms-input-placeholder {
   font-weight: 700;
   color: #ced4da;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
