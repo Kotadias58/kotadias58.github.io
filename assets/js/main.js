@@ -13,9 +13,11 @@ $(document).ready( function() {
 			$(".navbar-dark").addClass("bg-transparent");
 		}
 
+		/*
 		$(".wellcome").css({
 			'transform' : 'translate(-50%, '+ (pos + (top /2)) +'%)'
 		});
+		*/
 	});
 
 	baguetteBox.run('.cards-gallery', { animation: 'slideIn'});
