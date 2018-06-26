@@ -12,9 +12,12 @@ $(document).ready( function() {
 			$(".navbar-dark").addClass("bg-transparent");
 		}
 
+		/*
 		$(".wellcome").css({
 			'transform' : 'translate( -50%, '+ top /2 +'%)'
 		});
+		*/
+		
 
 	});
 
