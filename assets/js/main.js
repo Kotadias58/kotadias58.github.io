@@ -13,7 +13,7 @@ $(document).ready( function() {
 		}
 
 		$(".wellcome").css({
-			'transform' : 'translate(0px, '+ top /4 +'%)'
+			'transform' : 'translate(-50%, '+ top /4 +'%)'
 		});
 		
 
