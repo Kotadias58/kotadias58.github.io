@@ -119,6 +119,39 @@ body {
 	padding: 0;
 }
 */
+section {
+	padding: 100px 0;
+	font-size: 20px;
+}
+
+section h1.section-heading {
+  	font-size: 2em;
+	font-weight: 700;  
+  	margin-top: 0;
+  	margin-bottom: 15px;
+}
+
+section h2.section-heading {
+  font-size: 1.8em;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+section h3.section-subheading {
+  font-size: 1.1em;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 75px;
+  text-transform: none;
+  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@media (min-width: 768px) {
+  section {
+    padding: 150px 0;
+  }
+}
 
 .section-container, .content-container, .footer-contrainer, .cards-container {
   	width: 100%;
@@ -146,12 +179,10 @@ section#faleconosco .section-heading {
 }
 
 section#quemsomos .section-heading {
-	font-size: 1.6em;
 	color: #000;
 }
 
 section#quemsomos .section-subheading {
-	font-size: 1.1em;
 	color: #000;
 }
 
@@ -161,8 +192,6 @@ section#portfolio {
 
 section#portfolio .section-heading {
 	padding: 20px 0;
-	font-size: 2em;
-	font-weight: 700;
 	color: #000;
 	text-transform: uppercase;
 }
