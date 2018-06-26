@@ -102,6 +102,7 @@ body {
 	width: 100%;
 	height: 100%;
   	text-align: center;
+  	position: fixed;
 }
 
 #parallaxBar h1 {
@@ -124,7 +125,7 @@ body {
   	height: 100vh;
 }
 
-.item-one {  	
+.carousel-item .item-one {  	
   	background: url(/assets/images/image4.jpg) no-repeat top center fixed; 
   	-webkit-background-size: cover !important;
   	-moz-background-size: cover !important;
@@ -132,7 +133,7 @@ body {
   	background-size: cover !important;
 }
 
-.item-two {
+.carousel-item .item-two {
   	background: url(/assets/images/image2.jpg) no-repeat top center fixed; 
   	-webkit-background-size: cover !important;
   	-moz-background-size: cover !important;
@@ -140,7 +141,7 @@ body {
   	background-size: cover !important;
 }
 
-.item-three {
+.carousel-item .item-three {
   	background: url(/assets/images/image7.jpg) no-repeat top center fixed; 
   	-webkit-background-size: cover !important;
   	-moz-background-size: cover !important;
