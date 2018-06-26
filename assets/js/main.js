@@ -16,6 +16,10 @@ $(document).ready( function() {
 			$(".wellcome").css({
 				'transform' : 'translate(-50%, '+ top /4 +'%)'
 			});
+		} else {
+			$(".wellcome").css({
+				'transform' : 'translate(-50%, -50%)'
+			});
 		}
 	});
 
