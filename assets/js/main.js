@@ -11,6 +11,11 @@ $(document).ready( function() {
 			$(".navbar-dark").removeClass("bg-dark");
 			$(".navbar-dark").addClass("bg-transparent");
 		}
+
+		$(".wellcome").css({
+			'transform' : 'translate(0px, '+ top /2 +'%)'
+		});
+
 	});
 
 	baguetteBox.run('.cards-gallery', { animation: 'slideIn'});
