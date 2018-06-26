@@ -182,7 +182,11 @@ section#quemsomos .section-subheading {
 	color: #000;
 }
 
-section#quemsomos .section-heading {
+section#portfolio {
+	padding: 120px 0;
+}	
+
+section#portfolio .section-heading {
 	font-size: 2em;
 	color: #000;
 }
