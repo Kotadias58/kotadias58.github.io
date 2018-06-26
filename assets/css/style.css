@@ -158,11 +158,11 @@ body {
   	background-size: cover !important;
 }
 
-.item:nrh-child(2) {
+.item:nth-child(2) {
   	background-image: url(/assets/images/image2.jpg);
 }
 
-.item:nrh-child(3) {
+.item:nth-child(3) {
   	background-image: url(/assets/images/image7.jpg);
 }
 
