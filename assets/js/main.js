@@ -14,7 +14,7 @@ $(document).ready( function() {
 
 		if (top > 10) {
 			$(".wellcome").css({
-				'transform' : 'translate(-50%, '+ top /4 +'%)'
+				'transform' : 'translate(-50%, '+ top /2 +'%)'
 			});
 		} else {
 			$(".wellcome").css({
