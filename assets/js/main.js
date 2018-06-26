@@ -13,6 +13,9 @@ $(document).ready( function() {
 		}
 	});
 
+	baguetteBox.run('.cards-gallery', { animation: 'slideIn'});
+
+
 	/*
 
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {

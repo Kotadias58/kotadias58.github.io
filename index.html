@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700">
 	<link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/assets/css/baguetteBox.min.css" />
+    <link rel="stylesheet" href="/assets/css/cards-gallery.css">
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
@@ -74,35 +76,46 @@
 				</div>
 			</div>
 		</div>
-		
-		<div class="container cards-container">
-			<div class="row card-center">
-				<div class="col-md-4">
-					<div class="card">
-					  <img class="card-img-top" src="/assets/images/image4.jpg" alt="Card image cap">
-					  <div class="card-body">
-					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-					  </div>
-					</div>					
-				</div>
-				<div class="col-md-4">
-					<div class="card">
-					  <img class="card-img-top" src="/assets/images/image2.jpg" alt="Card image cap">
-					  <div class="card-body">
-					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-					  </div>
-					</div>					
-				</div>
-				<div class="col-md-4">
-					<div class="card">
-					  <img class="card-img-top" src="/assets/images/image7.jpg" alt="Card image cap">
-					  <div class="card-body">
-					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-					  </div>
-					</div>					
-				</div>
-			</div>
-		</div>
+
+   		<section class="gallery-block cards-gallery">
+		    <div class="container">
+		        <div class="row">
+		            <div class="col-md-4 col-lg-4">
+		                <div class="card border-0 transform-on-hover">
+		                	<a class="lightbox" href="/assets/images/image4.jpg">
+		                		<img src="/assets/images/image4.jpg" alt="Card Image" class="card-img-top">
+		                	</a>
+		                    <div class="card-body">
+		                        <h6><a href="#">Lorem Ipsum</a></h6>
+		                        <p class="text-muted card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.</p>
+		                    </div>
+		                </div>
+		            </div>
+		            <div class="col-md-4 col-lg-4">
+		                <div class="card border-0 transform-on-hover">
+		                	<a class="lightbox" href="/assets/images/image2.jpg">
+		                		<img src="/assets/images/image2.jpg" alt="Card Image" class="card-img-top">
+		                	</a>
+		                    <div class="card-body">
+		                        <h6><a href="#">Lorem Ipsum</a></h6>
+		                        <p class="text-muted card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.</p>
+		                    </div>
+		                </div>
+		            </div>
+		            <div class="col-md-4 col-lg-4">
+		                <div class="card border-0 transform-on-hover">
+		                	<a class="lightbox" href="/assets/images/image7.jpg">
+		                		<img src="/assets/images/image7.jpg" alt="Card Image" class="card-img-top">
+		                	</a>
+		                    <div class="card-body">
+		                        <h6><a href="#">Lorem Ipsum</a></h6>
+		                        <p class="text-muted card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna.</p>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</section>
 	</section>
 
     <section id="quemsomos">
@@ -144,6 +157,10 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="/assets/js/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.cards-gallery', { animation: 'slideIn'});
+    </script>
     <script src="/assets/js/main.js"></script>
 </body>
 </html>
