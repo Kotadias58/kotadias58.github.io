@@ -168,54 +168,6 @@ section#faleconosco .section-heading {
   color: #fff;
 }
 
-section#faleconosco .form-group {
-  margin-bottom: 25px;
-}
-
-section#faleconosco .form-group input,
-section#faleconosco .form-group textarea {
-  padding: 20px;
-}
-
-section#faleconosco .form-group input.form-control {
-  height: auto;
-}
-
-section#faleconosco .form-group textarea.form-control {
-  height: 248px;
-}
-
-section#faleconosco .form-control:focus {
-  border-color: #fed136;
-  box-shadow: none;
-}
-
-section#faleconosco ::-webkit-input-placeholder {
-  font-weight: 700;
-  color: #ced4da;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-section#faleconosco :-moz-placeholder {
-  font-weight: 700;
-  color: #ced4da;
-  /* Firefox 18- */
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-section#faleconosco ::-moz-placeholder {
-  font-weight: 700;
-  color: #ced4da;
-  /* Firefox 19+ */
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-section#faleconosco :-ms-input-placeholder {
-  font-weight: 700;
-  color: #ced4da;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
 .wrapper-content .content-container {
   	position: relative;
   	height: 100%;
