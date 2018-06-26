@@ -144,10 +144,13 @@ body {
 .carousel-inner .carousel-item  {
   	width: 100%;
   	height: 100vh;
+}
+
+.carousel-item {
   	background-attachment: fixed !important;
 }
 
-.item { 
+.carousel-item .item { 
   	background-image: url(/assets/images/image4.jpg);
   	background-repeat: no-repeat;
   	background-position: top center;
@@ -158,11 +161,11 @@ body {
   	background-size: cover !important;
 }
 
-.item:nth-child(2) {
+.carousel-item .item:nth-child(2) {
   	background-image: url(/assets/images/image2.jpg);
 }
 
-.item:nth-child(3) {
+.carousel-item .item:nth-child(3) {
   	background-image: url(/assets/images/image7.jpg);
 }
 
