@@ -195,6 +195,7 @@ body {
  	opacity: 0;
 }
 
+/*
 .carousel-fade  .carousel-item-next,
 .carousel-fade .carousel-item-prev,
 .carousel-fade .carousel-item.active,
@@ -203,6 +204,7 @@ body {
  	transform: translateX(0);
  	transform: translate3d(0, 0, 0);
 }
+*/
 
 .footer-container {
   padding: 20px 0;
