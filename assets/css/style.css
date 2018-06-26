@@ -224,7 +224,7 @@ section#portfolio .section-heading {
   	background-size: cover;
 }
 
-.wrapper-content .content-header {
+.wrapper-content .content-header h1 {
   	font-size: 4em;
   	font-weight: 700;
   	color: #fff;
@@ -239,18 +239,18 @@ section#portfolio .section-heading {
   	text-align: center;
 }
 
-.wrapper-content .content-subheader {
+.wrapper-content .content-subheader h2 {
   	font-size: 3em;
   	font-weight: 700;
   	color: #fff;
   	position: absolute;
-  	top: 50%;
+  	top: 70%;
   	left: 50%;
-  	-moz-transform: translate(-50%, -50%);
-  	-webkit-transform: translate(-50%, -50%);
-  	-o-transform: translate(-50%, -50%);
-  	-ms-transform: translate(-50%, -50%);
-  	transform: translate(-50%, -50%);
+  	-moz-transform: translate(-70%, -50%);
+  	-webkit-transform: translate(-70%, -50%);
+  	-o-transform: translate(-70%, -50%);
+  	-ms-transform: translate(-70%, -50%);
+  	transform: translate(-70%, -50%);
   	text-align: center;
 }
 
