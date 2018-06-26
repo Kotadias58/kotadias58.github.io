@@ -14,7 +14,7 @@ body {
 #mainNav {
   margin-bottom: 0;
   text-transform: uppercase;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  /*border-bottom: 1px solid rgba(255, 255, 255, 0.3);*/
   background-color: black;
 }
 
@@ -65,7 +65,7 @@ body {
   #mainNav.navbar-shrink {
     padding-top: 10px;
     padding-bottom: 10px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    /*border-bottom: 1px solid rgba(255, 255, 255, 0.3);*/
     background: black;
   }
   #mainNav .nav-link.active {
