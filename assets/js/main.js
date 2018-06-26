@@ -12,6 +12,7 @@ $(document).ready( function() {
 			$(".navbar-dark").addClass("bg-transparent");
 		}
 
+		/*
 		if (top > 10) {
 			$(".wellcome").css({
 				'transform' : 'translate(-50%, '+ top /2 +'%)'
@@ -21,6 +22,7 @@ $(document).ready( function() {
 				'transform' : 'translate(-50%, -50%)'
 			});
 		}
+		*/
 	});
 
 	baguetteBox.run('.cards-gallery', { animation: 'slideIn'});
